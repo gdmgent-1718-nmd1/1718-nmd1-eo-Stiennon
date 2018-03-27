@@ -12,7 +12,9 @@ body {
 }
 main{
     margin: auto;
-    width: 90%;
+    width: 100%;
+    position: absolute;
+    
 }
 
 img {
@@ -22,6 +24,7 @@ img {
 h1{
     
 font-size:bold;
+color: #5BD298;
 }
 a{
     list-style: none;
