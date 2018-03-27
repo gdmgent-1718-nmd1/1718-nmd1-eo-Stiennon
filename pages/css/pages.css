@@ -33,4 +33,7 @@ a{
 article{
     width: 40%;
 }
-/* Voeg jouw css hieraan toe */
+dt{
+   font-size:bold; 
+    
+}
