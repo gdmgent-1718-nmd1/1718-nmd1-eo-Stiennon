@@ -30,4 +30,7 @@ a{
     list-style: none;
     text-decoration: none;
 }
+article{
+    width: 40%;
+}
 /* Voeg jouw css hieraan toe */
