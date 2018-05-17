@@ -10,6 +10,14 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
+main{
+    margin: auto;
+    width: 100%;
+    position: absolute;
+   margin-left: 17%;
+
+    
+}
 nav{
    
          width: 50%;
@@ -54,14 +62,7 @@ nav ul {
     margin-top: -3%;
     z-index: 9999999999999;
 }
-main{
-    margin: auto;
-    width: 100%;
-    position: absolute;
-   margin-left: 17%;
 
-    
-}
 
 img {
     max-width: 100%; /* Afbeeldingen responsive maken */
