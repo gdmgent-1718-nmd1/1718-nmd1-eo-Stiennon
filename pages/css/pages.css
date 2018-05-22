@@ -100,7 +100,11 @@ article p{
 }
 
 
-
+.color{
+    background-color: #5BD298;
+    width: 60px;
+    height: 60px;
+}
 
 
 
