@@ -10,6 +10,9 @@ body {
     line-height: 1.5em;
     padding: 25px;
 }
+p{
+    font-size:16px;
+}
 main{
     margin: auto;
     width: 100%;
@@ -51,6 +54,7 @@ nav ul {
     overflow: hidden;
     margin-left: 22%;
  margin-left: 40%;
+ margin-bottom: 5%;
  
 }
 .logo {
@@ -72,6 +76,7 @@ h1{
     
 font-size:bold;
 color: #5BD298;
+line-height: 1em;
 }
 a{
     list-style: none;
@@ -107,8 +112,28 @@ article p{
     
 }
 
+/* button */
 
-
+.button_main {
+  background-image: linear-gradient(rgb(110, 189, 145), rgb(110, 189, 145)),
+                    linear-gradient(rgb(110, 189, 145), rgb(110, 189, 145)),
+                    linear-gradient(rgb(110, 189, 145), rgb(110, 189, 145)),
+                    linear-gradient(rgb(110, 189, 145), rgb(110, 189, 145)),
+                    linear-gradient(rgba(110, 189, 145, 0), rgba(110, 189, 145, 0));
+  background-repeat: no-repeat;
+  background-size: 2px 50%, 50% 2px, 2px 50%, 50% 2px, calc(100% - 4px) calc(100% - 4px);
+  background-position: left bottom, left bottom, right top, right top, 2px 2px;
+  
+  /* height: 160px; */
+  width: 125px;
+  padding:20px;
+  margin: 20px;
+  transition: 0.5s ease;
+  text-align:center;
+}
+.button_main:hover {
+    background-size: 2px 100%, 100% 2px, 2px 100%, 100% 2px, calc(100% - 4px) calc(100% - 4px);
+}
 
 
 
