@@ -111,6 +111,17 @@ article p{
     height: 60px;
     
 }
+.kader p {
+    padding:4%;
+    font-size: 20px;
+  
+}
+
+.kader{
+    background-color: rgba(235,232,232,3);
+    width: 30%;
+    height: 20%;
+}
 
 /* button */
 
